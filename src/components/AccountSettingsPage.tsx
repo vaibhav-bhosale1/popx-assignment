@@ -6,6 +6,7 @@ interface AccountSettingsPageProps {
 
 const AccountSettingsPage: React.FC<AccountSettingsPageProps> = ({ onNavigate }) => {
   return (
+    
     <div className="p-8 h-full">
       <div className="mb-8">
         <h1 className="text-xl font-semibold text-gray-800 mb-6">

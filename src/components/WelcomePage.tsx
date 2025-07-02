@@ -23,6 +23,7 @@ const WelcomePage: React.FC<WelcomePageProps> = ({ onNavigate }) => {
         </p>
       </div>
       
+      
       {/* Action Buttons */}
       <div className="w-full space-y-3">
         <button

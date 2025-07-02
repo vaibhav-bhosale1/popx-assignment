@@ -13,6 +13,7 @@ const CreateAccountPage: React.FC<CreateAccountPageProps> = ({ onNavigate }) => 
     companyName: '',
     isAgency: 'yes'
   });
+  
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({

@@ -15,6 +15,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onNavigate }) => {
       ...formData,
       [e.target.name]: e.target.value
     });
+    
   };
 
   const handleLogin = () => {

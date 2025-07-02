@@ -15,6 +15,7 @@ function App() {
     { id: 4, component: AccountSettingsPage },
   ];
 
+  
   const CurrentPageComponent = pages[currentPage - 1].component;
 
   const goToPage = (pageNumber: number) => {
